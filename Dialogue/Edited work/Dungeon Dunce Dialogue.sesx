@@ -4,8 +4,8 @@
 
   <session appBuild="24.0.3.3" appVersion="24.0" audioChannelType="stereo" bitDepth="32" duration="7172565" sampleRate="48000">
     <tracks>
-      <audioTrack automationLaneOpenState="false" id="10001" index="1" select="false" visible="true">
-        <trackParameters trackHeight="219" trackHue="160" trackMinimized="false">
+      <audioTrack automationLaneOpenState="false" id="10001" index="1" select="true" visible="true">
+        <trackParameters trackHeight="30" trackHue="160" trackMinimized="false">
           <name>2nd Stone scene</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -17,7 +17,7 @@
           </component>
           <component componentGuid="5d5d216b-256e-49ff-b74c-56eb4b9962cc" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="1"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
           </component>
           <component componentGuid="44f021ab-7e30-4e45-9afe-feca7d433f77" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
@@ -71,12 +71,12 @@
           </component>
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="253348" fileID="5" hue="-1" id="0" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_aza 2nd stone" offline="false" select="false" sourceInPoint="0" sourceOutPoint="253348" startPoint="0" zOrder="0">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="44054" fileID="5" hue="-1" id="0" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_aza 2nd stone" offline="false" select="false" sourceInPoint="0" sourceOutPoint="44054" startPoint="0" zOrder="0">
           <component componentGuid="8cc381f9-e1e5-4fda-96d7-13fb09a675f9" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="2.9576447010040283203125"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="0714f963-f665-491f-b5ad-ad5b1ffeeffb" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="fe185335-70ef-458e-bad7-283af95b00aa" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -84,19 +84,39 @@
             <parameter index="0" name="Pan" parameterValue="0"/>
           </component>
           <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
-          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="253348" shape="19" startPoint="253348" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="44054" shape="19" startPoint="44054" type="log"/>
           <editParameter parameterIndex="0" slotIndex="4294967281"/>
           <editParameter parameterIndex="0" slotIndex="4294967280"/>
           <channelMap>
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="532849" fileID="5" hue="-1" id="1" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_aza 2nd stone" offline="false" select="false" sourceInPoint="817253" sourceOutPoint="1096754" startPoint="253348" zOrder="1">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="253348" fileID="5" hue="-1" id="1" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_aza 2nd stone" offline="false" select="false" sourceInPoint="44054" sourceOutPoint="253348" startPoint="44054" zOrder="1">
+          <component componentGuid="342140cb-2233-46d0-a5fd-691a5929c506" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="2.9576447010040283203125"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="fef72479-16ce-4e26-a080-c19ff2f3c3b2" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="11343939-f83d-44c9-8091-4eff704b4640" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="209294" shape="19" startPoint="209294" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="532849" fileID="5" hue="-1" id="2" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_aza 2nd stone" offline="false" select="false" sourceInPoint="817253" sourceOutPoint="1096754" startPoint="253348" zOrder="2">
           <component componentGuid="f5b70a93-77d4-43a1-b90f-cd3d942a4168" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="2.194923877716064453125"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="0e50cee6-787d-4eca-84dc-c4da36899e00" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="734261bf-c151-4eaa-96d2-ed82d4a36008" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -113,7 +133,7 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10002" index="2" select="false" visible="true">
-        <trackParameters trackHeight="219" trackHue="267" trackMinimized="false">
+        <trackParameters trackHeight="30" trackHue="267" trackMinimized="false">
           <name>Backtracking 1</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -125,7 +145,7 @@
           </component>
           <component componentGuid="da993425-f9dc-40f2-8b29-4233c19e58df" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="1"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
           </component>
           <component componentGuid="5680b598-3cfe-424f-b1f1-819a2d956680" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
@@ -179,12 +199,12 @@
           </component>
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="1" endPoint="219024" fileID="3" hue="-1" id="0" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Back Tracking" offline="false" select="false" sourceInPoint="2618331" sourceOutPoint="2837355" startPoint="0" zOrder="0">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="44054" fileID="3" hue="-1" id="0" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Back Tracking" offline="false" select="false" sourceInPoint="2618331" sourceOutPoint="2662385" startPoint="0" zOrder="0">
           <component componentGuid="08fe1c45-aafc-4388-874a-fe2ee3ec75b3" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="b05a5803-e33d-402d-91b0-a6ee786c86e0" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="c1c70e0c-65d2-40fb-be00-48fe750f20f8" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -192,19 +212,39 @@
             <parameter index="0" name="Pan" parameterValue="0"/>
           </component>
           <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
-          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="219024" shape="19" startPoint="182519" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="44054" shape="19" startPoint="44054" type="log"/>
           <editParameter parameterIndex="0" slotIndex="4294967280"/>
           <editParameter parameterIndex="0" slotIndex="4294967281"/>
           <channelMap>
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="0" crossFadeTailClipID="-1" endPoint="480000" fileID="3" hue="-1" id="1" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Back Tracking" offline="false" select="false" sourceInPoint="120953" sourceOutPoint="418434" startPoint="182519" zOrder="1">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="2" endPoint="219024" fileID="3" hue="-1" id="1" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Back Tracking" offline="false" select="false" sourceInPoint="2662385" sourceOutPoint="2837355" startPoint="44054" zOrder="1">
+          <component componentGuid="f9a3f8dc-b8ed-4a51-b6d5-c4b079fc10ea" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="daedb43d-f205-4190-b966-eaf83ec1382e" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="4eba108f-011c-407f-bd8c-09c85742eb24" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="174970" shape="19" startPoint="138465" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="1" crossFadeTailClipID="-1" endPoint="480000" fileID="3" hue="-1" id="2" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Back Tracking" offline="false" select="false" sourceInPoint="120953" sourceOutPoint="418434" startPoint="182519" zOrder="2">
           <component componentGuid="791136fb-660f-4fe2-b744-e0e1c9f90dc4" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="976b10f4-a38e-4d23-8ab8-07cfdabb45e7" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="8baa6d59-90da-4377-ae11-969f722ee7ee" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -221,7 +261,7 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10003" index="3" select="false" visible="true">
-        <trackParameters trackHeight="219" trackHue="51" trackMinimized="false">
+        <trackParameters trackHeight="30" trackHue="51" trackMinimized="false">
           <name>Backtracking 2</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -233,7 +273,7 @@
           </component>
           <component componentGuid="8161b06c-3b34-4c5f-8f6a-b0c4bc83e4fc" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="1"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
           </component>
           <component componentGuid="190073b1-29bb-42ea-aa78-e13b1ebbcb56" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
@@ -287,12 +327,12 @@
           </component>
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="1" endPoint="213296" fileID="3" hue="-1" id="0" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Back Tracking" offline="false" select="false" sourceInPoint="3062917" sourceOutPoint="3276213" startPoint="0" zOrder="0">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="44054" fileID="3" hue="-1" id="0" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Back Tracking" offline="false" select="false" sourceInPoint="3062917" sourceOutPoint="3106971" startPoint="0" zOrder="0">
           <component componentGuid="072832f8-0df2-41e2-a096-39865b4a2532" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="2375d45a-3874-467b-8d3e-d3024b775b10" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="5dee7ea1-e9c4-471e-a956-13bf9c874b89" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -300,19 +340,39 @@
             <parameter index="0" name="Pan" parameterValue="0"/>
           </component>
           <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
-          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="213296" shape="19" startPoint="150503" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="44054" shape="19" startPoint="44054" type="log"/>
           <editParameter parameterIndex="0" slotIndex="4294967280"/>
           <editParameter parameterIndex="0" slotIndex="4294967281"/>
           <channelMap>
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="0" crossFadeTailClipID="-1" endPoint="483253" fileID="3" hue="-1" id="1" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Back Tracking" offline="false" select="false" sourceInPoint="611305" sourceOutPoint="944055" startPoint="150503" zOrder="1">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="2" endPoint="213296" fileID="3" hue="-1" id="1" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Back Tracking" offline="false" select="false" sourceInPoint="3106971" sourceOutPoint="3276213" startPoint="44054" zOrder="1">
+          <component componentGuid="d093b8eb-4fe7-43c7-9e98-d30056e4cffc" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="6f78f336-8e34-4424-a5f0-b208154d0229" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="a14ef2bc-25e2-4de4-b690-72dd34b90045" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="169242" shape="19" startPoint="106449" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="1" crossFadeTailClipID="-1" endPoint="483253" fileID="3" hue="-1" id="2" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Back Tracking" offline="false" select="false" sourceInPoint="611305" sourceOutPoint="944055" startPoint="150503" zOrder="2">
           <component componentGuid="e4b24926-7e8b-48d1-aec2-2439e69d3793" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="297f6d73-0d16-40c2-ae62-f56056b91771" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="d1083fdd-a587-4a45-91e6-35cab5f73f1c" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -329,7 +389,7 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10004" index="4" select="false" visible="true">
-        <trackParameters trackHeight="219" trackHue="182" trackMinimized="false">
+        <trackParameters trackHeight="30" trackHue="182" trackMinimized="false">
           <name>Backtracking 3</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -341,7 +401,7 @@
           </component>
           <component componentGuid="1d7f64a6-5866-4806-a04c-19a99791a4c4" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="1"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
           </component>
           <component componentGuid="21f9b80d-09b5-4625-890a-e9f51f335e28" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
@@ -395,12 +455,12 @@
           </component>
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="197929" fileID="3" hue="-1" id="0" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Back Tracking" offline="false" select="false" sourceInPoint="5494614" sourceOutPoint="5692543" startPoint="0" zOrder="1">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="44054" fileID="3" hue="-1" id="0" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Back Tracking" offline="false" select="false" sourceInPoint="5494614" sourceOutPoint="5538668" startPoint="0" zOrder="1">
           <component componentGuid="aff4c715-8ae8-4634-a7bc-6ba0c6907804" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="6bddcb94-bb60-48c3-a300-215229063731" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="46533b52-3f6c-4398-a61c-4f98e00666b6" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -408,19 +468,39 @@
             <parameter index="0" name="Pan" parameterValue="0"/>
           </component>
           <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
-          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="197929" shape="19" startPoint="197929" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="44054" shape="19" startPoint="44054" type="log"/>
           <editParameter parameterIndex="0" slotIndex="4294967280"/>
           <editParameter parameterIndex="0" slotIndex="4294967281"/>
           <channelMap>
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="446420" fileID="3" hue="-1" id="1" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Back Tracking" offline="false" select="false" sourceInPoint="6114962" sourceOutPoint="6363453" startPoint="197929" zOrder="0">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="197929" fileID="3" hue="-1" id="1" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Back Tracking" offline="false" select="false" sourceInPoint="5538668" sourceOutPoint="5692543" startPoint="44054" zOrder="2">
+          <component componentGuid="d02357f9-dedf-425a-8619-37d43ab32f75" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="0cb8d4e7-d262-4bbd-b27f-98ef54cc0514" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="3d9a698f-faf7-4ff1-8722-72e05f2f051d" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="153875" shape="19" startPoint="153875" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="446420" fileID="3" hue="-1" id="2" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Back Tracking" offline="false" select="false" sourceInPoint="6114962" sourceOutPoint="6363453" startPoint="197929" zOrder="0">
           <component componentGuid="000b32f2-2a73-4e72-b26c-a5476f540f20" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="9f492a82-7351-4344-8174-75ef3c4b5f2e" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="bb974bd8-c41d-43cb-b76d-8738f62eba1b" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -437,7 +517,7 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10007" index="5" select="false" visible="true">
-        <trackParameters trackHeight="219" trackHue="211" trackMinimized="false">
+        <trackParameters trackHeight="30" trackHue="211" trackMinimized="false">
           <name>1st stone aquistion</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -449,7 +529,7 @@
           </component>
           <component componentGuid="ba76f28c-5603-465e-a78e-a4e81b27fd5a" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="1"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
           </component>
           <component componentGuid="a24c6c5f-59c1-4dad-8144-f9fc8183170d" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
@@ -503,12 +583,12 @@
           </component>
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="145403" fileID="4" hue="-1" id="0" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_aza First stone" offline="false" select="false" sourceInPoint="52874" sourceOutPoint="198277" startPoint="0" zOrder="0">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="44054" fileID="4" hue="-1" id="0" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_aza First stone" offline="false" select="false" sourceInPoint="52874" sourceOutPoint="96928" startPoint="0" zOrder="0">
           <component componentGuid="d90a5075-2550-4bf1-89f0-0946e2b54dad" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="fbc98e06-8577-4925-9df7-ad958321d0e8" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="c4b9ef79-ff40-477c-96ad-6a6ce22c0f52" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -520,19 +600,43 @@
             </parameter>
           </component>
           <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
-          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="145403" shape="19" startPoint="145403" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="44054" shape="19" startPoint="44054" type="log"/>
           <editParameter parameterIndex="0" slotIndex="4294967280"/>
           <editParameter parameterIndex="0" slotIndex="4294967281"/>
           <channelMap>
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="285645" fileID="4" hue="-1" id="1" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_aza First stone" offline="false" select="false" sourceInPoint="589545" sourceOutPoint="729787" startPoint="145403" zOrder="1">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="145403" fileID="4" hue="-1" id="1" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_aza First stone" offline="false" select="false" sourceInPoint="96928" sourceOutPoint="198277" startPoint="44054" zOrder="1">
+          <component componentGuid="541d6d48-0f95-48b2-8fd5-4c0d37755f59" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="e5515580-0b87-4160-b535-3f0da6950567" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="88c00eb4-c48f-485f-9b80-8182f8070916" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0">
+              <parameterKeyframes enableSplines="false" readOnly="false">
+                <parameterKeyframe sampleOffset="814259" select="false" type="linear" value="0.5"/>
+              </parameterKeyframes>
+            </parameter>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="101349" shape="19" startPoint="101349" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="285645" fileID="4" hue="-1" id="2" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_aza First stone" offline="false" select="false" sourceInPoint="589545" sourceOutPoint="729787" startPoint="145403" zOrder="2">
           <component componentGuid="e7d4516d-8544-4a7c-9e7c-83346ebb99b3" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="c1eb240a-646d-4597-9e8a-767d7d04d87c" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="8271576c-c6f6-4c65-a3d2-df529e7599d6" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -553,7 +657,7 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10008" index="6" select="false" visible="true">
-        <trackParameters trackHeight="219" trackHue="326" trackMinimized="false">
+        <trackParameters trackHeight="30" trackHue="326" trackMinimized="false">
           <name>Guard Encounters</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -565,7 +669,7 @@
           </component>
           <component componentGuid="550b1212-4c62-470f-a204-1908d9668b19" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="1"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
           </component>
           <component componentGuid="7c6ffe9e-e150-429e-8d4f-1ffc3dd2a918" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
@@ -619,12 +723,12 @@
           </component>
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="227358" fileID="0" hue="-1" id="0" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_aza Guard encounter" offline="false" select="false" sourceInPoint="63449" sourceOutPoint="290807" startPoint="0" zOrder="0">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="44054" fileID="0" hue="-1" id="0" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_aza Guard encounter" offline="false" select="false" sourceInPoint="63449" sourceOutPoint="107503" startPoint="0" zOrder="0">
           <component componentGuid="34ca9cd9-30e3-487a-ac4c-7d3bdfd046b7" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="87abe2c6-d10c-4620-9f81-f4f07d99c976" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="36d1a598-1c18-4dda-9831-d48f248dc473" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -632,19 +736,39 @@
             <parameter index="0" name="Pan" parameterValue="0"/>
           </component>
           <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
-          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="227358" shape="19" startPoint="227358" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="44054" shape="19" startPoint="44054" type="log"/>
           <editParameter parameterIndex="0" slotIndex="4294967280"/>
           <editParameter parameterIndex="0" slotIndex="4294967281"/>
           <channelMap>
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="544602" fileID="0" hue="-1" id="1" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_aza Guard encounter" offline="false" select="false" sourceInPoint="949088" sourceOutPoint="1266332" startPoint="227358" zOrder="1">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="227358" fileID="0" hue="-1" id="1" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_aza Guard encounter" offline="false" select="false" sourceInPoint="107503" sourceOutPoint="290807" startPoint="44054" zOrder="1">
+          <component componentGuid="8479b036-82fb-471e-a449-e5680d77e92c" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="575a9dde-8c0d-4cc3-918b-25914d6a3247" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="a196c0e1-2229-410c-a36d-467de5d7f6f5" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="183304" shape="19" startPoint="183304" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="544602" fileID="0" hue="-1" id="2" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_aza Guard encounter" offline="false" select="false" sourceInPoint="949088" sourceOutPoint="1266332" startPoint="227358" zOrder="2">
           <component componentGuid="8b990f4c-7fcb-40c1-addf-93e804b304e5" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="bcb033b6-5c3d-4111-977f-1b2157a4ad7a" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="7a30e936-a149-4dab-b719-193b3c80304e" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -661,7 +785,7 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10009" index="7" select="false" visible="true">
-        <trackParameters trackHeight="219" trackHue="130" trackMinimized="false">
+        <trackParameters trackHeight="30" trackHue="130" trackMinimized="false">
           <name>Found door that was unlocked</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -673,7 +797,7 @@
           </component>
           <component componentGuid="b4063f6d-948e-4421-bfa4-27ab21f84224" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="1"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
           </component>
           <component componentGuid="a80c388d-b663-4688-9bc4-6935242dfb3a" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
@@ -727,12 +851,12 @@
           </component>
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="55518" fileID="2" hue="-1" id="0" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Locked door scene" offline="false" select="false" sourceInPoint="727017" sourceOutPoint="782535" startPoint="0" zOrder="0">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="44054" fileID="2" hue="-1" id="0" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Locked door scene" offline="false" select="false" sourceInPoint="727017" sourceOutPoint="771071" startPoint="0" zOrder="0">
           <component componentGuid="65e2e8dc-f4af-4f80-98e8-ba342db6dec6" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="5c0d121a-7943-43f7-991a-9312992cb1f0" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="40b9f90f-59ab-4bf4-9feb-d3660ea7d95b" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -740,19 +864,39 @@
             <parameter index="0" name="Pan" parameterValue="0"/>
           </component>
           <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
-          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="55518" shape="19" startPoint="55518" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="44054" shape="19" startPoint="44054" type="log"/>
           <editParameter parameterIndex="0" slotIndex="4294967280"/>
           <editParameter parameterIndex="0" slotIndex="4294967281"/>
           <channelMap>
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="383337" fileID="2" hue="-1" id="1" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Locked door scene" offline="false" select="false" sourceInPoint="105748" sourceOutPoint="433567" startPoint="55518" zOrder="1">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="55518" fileID="2" hue="-1" id="1" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Locked door scene" offline="false" select="false" sourceInPoint="771071" sourceOutPoint="782535" startPoint="44054" zOrder="1">
+          <component componentGuid="f9405bf1-2d2a-4f7f-b04e-177733576048" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="e41372c7-5859-4598-a7da-7c2b9d5f8924" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="4d2b6ba1-5cc0-4d77-9995-9ae3202d4af5" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="11464" shape="19" startPoint="11464" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="383337" fileID="2" hue="-1" id="2" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Locked door scene" offline="false" select="false" sourceInPoint="105748" sourceOutPoint="433567" startPoint="55518" zOrder="2">
           <component componentGuid="fae728bc-0944-45f6-98e7-6ccd0405a615" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="0be121a8-f240-4ad8-9105-5b468968f75a" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="4063b406-17af-4946-8761-1921f657ac13" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -767,12 +911,12 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="618626" fileID="2" hue="-1" id="2" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Locked door scene" offline="false" select="false" sourceInPoint="1086561" sourceOutPoint="1321850" startPoint="383337" zOrder="2">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="618626" fileID="2" hue="-1" id="3" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Locked door scene" offline="false" select="false" sourceInPoint="1086561" sourceOutPoint="1321850" startPoint="383337" zOrder="3">
           <component componentGuid="332f252f-5b84-4164-b29a-7b0ce99ff6e7" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="09f9f976-b3fd-4574-a771-ba92f0cf3ae5" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="4dcdafa4-b3f8-493e-a61a-5f68f77eac97" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -789,7 +933,7 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10010" index="8" select="false" visible="true">
-        <trackParameters trackHeight="219" trackHue="240" trackMinimized="false">
+        <trackParameters trackHeight="30" trackHue="240" trackMinimized="false">
           <name>Player loses 1</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -801,7 +945,7 @@
           </component>
           <component componentGuid="9156ffb4-a8bd-49b6-8dcf-9eb276aeec9f" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="1"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
           </component>
           <component componentGuid="6eb05104-ecda-4aec-8b24-98a41af16e3d" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
@@ -855,12 +999,12 @@
           </component>
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="132185" fileID="1" hue="-1" id="0" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Player is caught" offline="false" select="false" sourceInPoint="63449" sourceOutPoint="195634" startPoint="0" zOrder="0">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="44054" fileID="1" hue="-1" id="0" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Player is caught" offline="false" select="false" sourceInPoint="63449" sourceOutPoint="107503" startPoint="0" zOrder="0">
           <component componentGuid="c83ca449-1d2e-4ccc-8077-f021468c2fc6" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="5bf307aa-65ff-4e4b-a0fe-d552b192403a" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="b84c560a-fe2e-4b82-82ec-ef424e06b436" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -868,19 +1012,39 @@
             <parameter index="0" name="Pan" parameterValue="0"/>
           </component>
           <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
-          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="132185" shape="19" startPoint="132185" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="44054" shape="19" startPoint="44054" type="log"/>
           <editParameter parameterIndex="0" slotIndex="4294967280"/>
           <editParameter parameterIndex="0" slotIndex="4294967281"/>
           <channelMap>
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="235830" fileID="1" hue="-1" id="1" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Player is caught" offline="false" select="false" sourceInPoint="1404273" sourceOutPoint="1507918" startPoint="132185" zOrder="1">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="132185" fileID="1" hue="-1" id="1" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Player is caught" offline="false" select="false" sourceInPoint="107503" sourceOutPoint="195634" startPoint="44054" zOrder="1">
+          <component componentGuid="1a165096-0ec0-41a4-840b-180a4a2d0d9a" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="96027314-f6cc-4b4f-b44c-ee52f4519092" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="af8e814a-2a77-41e8-9c6b-821de939fc9c" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="88131" shape="19" startPoint="88131" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="235830" fileID="1" hue="-1" id="2" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Player is caught" offline="false" select="false" sourceInPoint="1404273" sourceOutPoint="1507918" startPoint="132185" zOrder="2">
           <component componentGuid="d3901bc5-0d68-4c70-9eb9-2252f081900d" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="10c44da4-89f1-4d68-855e-9b5a8a7100cc" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="7bae46fb-f058-41d9-8633-b006d8ab0bab" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -909,7 +1073,7 @@
           </component>
           <component componentGuid="6c13f550-d4c6-47a9-a0f5-c7f44b81d86e" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="1"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
           </component>
           <component componentGuid="63f0bc8a-f3f7-4fd5-a11c-e8c141f5eb08" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
@@ -963,12 +1127,12 @@
           </component>
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="148047" fileID="1" hue="-1" id="0" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Player is caught" offline="false" select="false" sourceInPoint="1587229" sourceOutPoint="1735276" startPoint="0" zOrder="2">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="44054" fileID="1" hue="-1" id="0" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Player is caught" offline="false" select="false" sourceInPoint="1587229" sourceOutPoint="1631283" startPoint="0" zOrder="2">
           <component componentGuid="2f071dc9-d356-4082-a7f4-8486ccf5c1e4" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="a7a2e91c-0bfc-4489-924f-d73c2fa39b3f" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="8195404c-4e7b-4e7b-a92b-0ddc3ca1f8d4" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -976,19 +1140,39 @@
             <parameter index="0" name="Pan" parameterValue="0"/>
           </component>
           <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
-          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="148047" shape="19" startPoint="148047" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="44054" shape="19" startPoint="44054" type="log"/>
           <editParameter parameterIndex="0" slotIndex="4294967280"/>
           <editParameter parameterIndex="0" slotIndex="4294967281"/>
           <channelMap>
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="267013" fileID="1" hue="-1" id="1" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Player is caught" offline="false" select="false" sourceInPoint="531384" sourceOutPoint="650350" startPoint="148047" zOrder="0">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="148047" fileID="1" hue="-1" id="1" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Player is caught" offline="false" select="false" sourceInPoint="1631283" sourceOutPoint="1735276" startPoint="44054" zOrder="3">
+          <component componentGuid="dc868cea-79a3-477d-b29b-8341c3d50bc4" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="89c8d98c-577c-4e20-ac8a-a8ed1cd28b02" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="68452ec0-10c0-4a2c-a96b-e9ee30d27d4b" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="103993" shape="19" startPoint="103993" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="267013" fileID="1" hue="-1" id="2" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Player is caught" offline="false" select="false" sourceInPoint="531384" sourceOutPoint="650350" startPoint="148047" zOrder="0">
           <component componentGuid="5dd57178-df2a-47a6-8a30-9da847250718" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="45614375-59d8-4983-a2d8-28c088028f81" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="83eda4c1-0197-4726-80a5-ec38abcbc8c0" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1003,12 +1187,12 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="351611" fileID="1" hue="-1" id="2" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Player is caught" offline="false" select="false" sourceInPoint="1854243" sourceOutPoint="1938841" startPoint="267013" zOrder="1">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="351611" fileID="1" hue="-1" id="3" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Player is caught" offline="false" select="false" sourceInPoint="1854243" sourceOutPoint="1938841" startPoint="267013" zOrder="1">
           <component componentGuid="2477d485-e110-46cf-a5e1-3855bc7880f6" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="8a8ef6d2-7fbe-46b4-9100-a7f94743053c" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="c8f07e11-7ab7-473c-9412-aa3718e797d6" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1037,7 +1221,7 @@
           </component>
           <component componentGuid="36aae628-475e-4dfd-ba40-098350a08cf5" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="1"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
           </component>
           <component componentGuid="b3d84a90-c9f1-4395-bde1-c5e717356513" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
@@ -1091,12 +1275,12 @@
           </component>
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="188172" fileID="1" hue="-1" id="0" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Player is caught" offline="false" select="false" sourceInPoint="790466" sourceOutPoint="978638" startPoint="0" zOrder="0">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="44054" fileID="1" hue="-1" id="0" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Player is caught" offline="false" select="false" sourceInPoint="790466" sourceOutPoint="834520" startPoint="0" zOrder="0">
           <component componentGuid="95ae209f-2094-4728-96bc-32dcfefa3945" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="83db43ea-a8d6-460d-bff9-4125e59c1c07" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="409a414a-f7ad-4858-b76c-d66897f1e219" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1104,19 +1288,39 @@
             <parameter index="0" name="Pan" parameterValue="0"/>
           </component>
           <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
-          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="188172" shape="19" startPoint="188172" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="44054" shape="19" startPoint="44054" type="log"/>
           <editParameter parameterIndex="0" slotIndex="4294967280"/>
           <editParameter parameterIndex="0" slotIndex="4294967281"/>
           <channelMap>
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="315070" fileID="1" hue="-1" id="1" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Player is caught" offline="false" select="false" sourceInPoint="2208498" sourceOutPoint="2335396" startPoint="188172" zOrder="1">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="188172" fileID="1" hue="-1" id="1" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Player is caught" offline="false" select="false" sourceInPoint="834520" sourceOutPoint="978638" startPoint="44054" zOrder="1">
+          <component componentGuid="0bec5f67-2241-40aa-ae0a-9e90d9df883a" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="45e11cd2-4b56-4884-929a-ed4404cdcdb2" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="88cc811c-cd8e-4452-afa2-31fd4f6e1ff5" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="144118" shape="19" startPoint="144118" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="315070" fileID="1" hue="-1" id="2" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Player is caught" offline="false" select="false" sourceInPoint="2208498" sourceOutPoint="2335396" startPoint="188172" zOrder="2">
           <component componentGuid="afc5536f-735c-41c1-9261-07f6f08aae3b" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="c5949a31-8661-4d79-8ba3-e752909290f9" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="088f7051-c714-401b-b81c-79d56af116dd" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1133,7 +1337,7 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10013" index="11" select="false" visible="true">
-        <trackParameters trackHeight="219" trackHue="267" trackMinimized="false">
+        <trackParameters trackHeight="30" trackHue="267" trackMinimized="false">
           <name>Player wins</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -1145,7 +1349,7 @@
           </component>
           <component componentGuid="9c1738e1-293b-462d-8ca0-979dc5cc741a" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="1"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
           </component>
           <component componentGuid="7a58ff6d-089b-4718-abbd-ff069e15a3d7" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
@@ -1199,12 +1403,12 @@
           </component>
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="113679" fileID="6" hue="-1" id="0" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Player wins" offline="false" select="false" sourceInPoint="478510" sourceOutPoint="592189" startPoint="0" zOrder="0">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="44054" fileID="6" hue="-1" id="0" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Player wins" offline="false" select="false" sourceInPoint="478510" sourceOutPoint="522564" startPoint="0" zOrder="0">
           <component componentGuid="267e648a-48cf-44d2-b058-6912bcb3381b" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="a05afdb5-46a5-47ac-9180-5c84751f787a" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="88065994-01af-4eff-9790-5d9b0dd05f29" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1212,19 +1416,39 @@
             <parameter index="0" name="Pan" parameterValue="0"/>
           </component>
           <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
-          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="113679" shape="19" startPoint="113679" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="44054" shape="19" startPoint="44054" type="log"/>
           <editParameter parameterIndex="0" slotIndex="4294967280"/>
           <editParameter parameterIndex="0" slotIndex="4294967281"/>
           <channelMap>
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="314600" fileID="6" hue="-1" id="1" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Player wins" offline="false" select="false" sourceInPoint="155978" sourceOutPoint="356899" startPoint="113679" zOrder="1">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="113679" fileID="6" hue="-1" id="1" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Player wins" offline="false" select="false" sourceInPoint="522564" sourceOutPoint="592189" startPoint="44054" zOrder="1">
+          <component componentGuid="6abe9ab3-4b46-49e6-80f8-5f3ca909809f" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="e3e7d3de-cba1-4d6c-af73-5a3e604d8430" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="8a857827-04ca-473d-87f8-a4e6f0c94be1" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="69625" shape="19" startPoint="69625" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="314600" fileID="6" hue="-1" id="2" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Player wins" offline="false" select="false" sourceInPoint="155978" sourceOutPoint="356899" startPoint="113679" zOrder="2">
           <component componentGuid="9c903867-647c-4dc0-a29d-ff7da49b7eb0" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="0a60bf50-343b-4aa0-aa58-609c0ff17706" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="ba65e8c5-a3c6-40a7-8d13-0f9108631ca0" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1241,8 +1465,8 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10014" index="12" select="false" visible="true">
-        <trackParameters trackHeight="219" trackHue="51" trackMinimized="false">
-          <name>Track 14</name>
+        <trackParameters trackHeight="30" trackHue="51" trackMinimized="false">
+          <name>Intro for the game</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
           <trackOutput outputID="10000" type="trackID"/>
@@ -1307,10 +1531,170 @@
           </component>
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="1" endPoint="668038" fileID="10" hue="-1" id="0" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Azaraphef Scene 1" offline="false" select="false" sourceInPoint="97464" sourceOutPoint="765502" startPoint="0" zOrder="0">
+          <component componentGuid="b15019be-ca79-438b-8bc3-2a234c055fc8" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="9c700d63-6fba-4827-999a-e595c4993d5a" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="ade15656-5140-4868-82b7-fc05168eec8f" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="668038" shape="19" startPoint="618626" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="0" crossFadeTailClipID="-1" endPoint="1053972" fileID="10" hue="-1" id="1" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Azaraphef Scene 1" offline="false" select="false" sourceInPoint="3873292" sourceOutPoint="4308638" startPoint="618626" zOrder="1">
+          <component componentGuid="a520050f-926e-4eb3-8bc0-e67704c8e56d" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="724df809-5812-4b20-8a7e-3b959aa739b2" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="cce80a7d-fae6-493d-a315-9e6ca10c69b0" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="49412" shape="18" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="435346" shape="19" startPoint="435346" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="3" endPoint="1330122" fileID="10" hue="-1" id="2" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Azaraphef Scene 1" offline="false" select="false" sourceInPoint="1224397" sourceOutPoint="1500547" startPoint="1053972" zOrder="2">
+          <component componentGuid="0a622e48-3179-4d7c-8eae-006dc7f6f375" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="15ad8f7f-fb37-4b03-9480-259f2dca8f68" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="47c59ea4-50b7-4108-9061-dda3e0c55d57" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="276150" shape="19" startPoint="146028" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="2" crossFadeTailClipID="-1" endPoint="1731346" fileID="10" hue="-1" id="3" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Azaraphef Scene 1" offline="false" select="false" sourceInPoint="4559136" sourceOutPoint="5090482" startPoint="1200000" zOrder="3">
+          <component componentGuid="d26cd8fd-9e09-4773-ae3f-9399660bf0a2" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1.8319032192230224609375"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="1fb89cc5-3c03-46f6-b4ac-c0104a98b18e" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="1e4bb932-a6b1-4b13-894e-fa6c0f825b45" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="130122" shape="18" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="531346" shape="19" startPoint="531346" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="2230690" fileID="10" hue="-1" id="4" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Azaraphef Scene 1" offline="false" select="false" sourceInPoint="2008083" sourceOutPoint="2507427" startPoint="1731346" zOrder="4">
+          <component componentGuid="6738f024-cfe0-401d-9847-b012eea0fb38" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="93dd0200-52f2-4244-9185-1e8a7c247716" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="e046a9a0-f45e-43e6-a055-ac0e91b13ae3" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="499344" shape="19" startPoint="499344" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="2598650" fileID="10" hue="-1" id="5" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Azaraphef Scene 1" offline="false" select="false" sourceInPoint="5600380" sourceOutPoint="5968340" startPoint="2230690" zOrder="5">
+          <component componentGuid="49a54130-28c7-4ba5-9484-827030c04b6c" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="c701fce8-2486-4eed-93d7-019fa2993387" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="7d398938-0dbf-48d8-801f-cb908db6e673" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="367960" shape="19" startPoint="367960" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="7" endPoint="2708693" fileID="10" hue="-1" id="6" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Azaraphef Scene 1" offline="false" select="false" sourceInPoint="2874949" sourceOutPoint="2984992" startPoint="2598650" zOrder="7">
+          <component componentGuid="fb1bc9be-55af-4dca-a694-ffa2170d8741" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="b5002ca9-6b6e-4635-a451-054172963a78" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="2514a399-72bb-4174-a224-896b36450f9e" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="110043" shape="18" startPoint="89350" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="6" crossFadeTailClipID="-1" endPoint="2768522" fileID="10" hue="-1" id="7" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Azaraphef Scene 1" offline="false" select="false" sourceInPoint="6075147" sourceOutPoint="6155669" startPoint="2688000" zOrder="6">
+          <component componentGuid="2aecf04f-a182-477d-82e5-3a87701d2d57" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="048c6fec-4c84-456b-a101-818e32294b64" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="0dc3cae8-44ef-40fb-9ec7-7ccf12ddc4c3" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="20693" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="80522" shape="19" startPoint="80522" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
       </audioTrack>
-      <audioTrack automationLaneOpenState="false" id="10015" index="13" select="true" visible="true">
-        <trackParameters trackHeight="219" trackHue="182" trackMinimized="false">
-          <name>Track 15</name>
+      <audioTrack automationLaneOpenState="false" id="10015" index="13" select="false" visible="true">
+        <trackParameters trackHeight="30" trackHue="182" trackMinimized="false">
+          <name>Tenzin intro</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
           <trackOutput outputID="10000" type="trackID"/>
@@ -1375,12 +1759,12 @@
           </component>
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="304025" fileID="7" hue="-1" id="0" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Tenzin Encounter" offline="false" select="false" sourceInPoint="63449" sourceOutPoint="367474" startPoint="0" zOrder="0">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="44054" fileID="8" hue="-1" id="0" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Tenzin Encounter" offline="false" select="false" sourceInPoint="63449" sourceOutPoint="107503" startPoint="0" zOrder="0">
           <component componentGuid="9e8688f6-cb44-4ca6-b318-ec9c4867e937" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="6cf08da4-bfc6-452c-923a-2a393bddf4ca" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="73b2ef5a-412d-4c5a-8204-b8e18a229ac4" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1388,19 +1772,39 @@
             <parameter index="0" name="Pan" parameterValue="0"/>
           </component>
           <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
-          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="304025" shape="19" startPoint="304025" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="44054" shape="19" startPoint="44054" type="log"/>
           <editParameter parameterIndex="0" slotIndex="4294967280"/>
           <editParameter parameterIndex="0" slotIndex="4294967281"/>
           <channelMap>
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="515521" fileID="8" hue="-1" id="1" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Tenzin Line 1" offline="false" select="false" sourceInPoint="161266" sourceOutPoint="372762" startPoint="304025" zOrder="1">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="304025" fileID="8" hue="-1" id="1" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Tenzin Encounter" offline="false" select="false" sourceInPoint="107503" sourceOutPoint="367474" startPoint="44054" zOrder="1">
+          <component componentGuid="f7e5cf46-38a0-4ffb-8467-e543b9c49a4f" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="f09bb646-bc09-4564-a001-267ee2de8012" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="87bae05d-7581-4eb2-9067-472ea2357738" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="259971" shape="19" startPoint="259971" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="515521" fileID="7" hue="-1" id="2" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Tenzin Line 1" offline="false" select="false" sourceInPoint="161266" sourceOutPoint="372762" startPoint="304025" zOrder="2">
           <component componentGuid="df8ece36-4fef-479a-8706-6e32a54d4a23" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="954824ca-5d3d-485d-b075-573010c1c3a4" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="a968baa4-d8de-48e5-9ef5-28bda8979e57" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1415,12 +1819,12 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="645062" fileID="8" hue="-1" id="2" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Tenzin Line 1" offline="false" select="false" sourceInPoint="430923" sourceOutPoint="560464" startPoint="515521" zOrder="2">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="645062" fileID="7" hue="-1" id="3" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Tenzin Line 1" offline="false" select="false" sourceInPoint="430923" sourceOutPoint="560464" startPoint="515521" zOrder="3">
           <component componentGuid="7a73c5c2-bb3c-4ae4-814f-2e5e0b9179c6" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="4d9e7f5c-dd00-43dd-92fa-5ff8698d10e2" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="1185eb30-985d-432f-8fd1-705c45f6ebd8" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1435,12 +1839,12 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="751741" fileID="7" hue="-1" id="3" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Tenzin Encounter" offline="false" select="false" sourceInPoint="1747485" sourceOutPoint="1854164" startPoint="645062" zOrder="4">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="751741" fileID="8" hue="-1" id="4" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Tenzin Encounter" offline="false" select="false" sourceInPoint="1747485" sourceOutPoint="1854164" startPoint="645062" zOrder="5">
           <component componentGuid="587662e5-2fed-4f0a-b725-af372b393686" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="4bb7829a-488c-4af8-8157-ff6c620a1d11" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="bc162ea7-c828-4c74-bca3-4ca1afc3dd6b" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1455,12 +1859,12 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="968524" fileID="8" hue="-1" id="4" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Tenzin Line 1" offline="false" select="false" sourceInPoint="906789" sourceOutPoint="1123572" startPoint="751741" zOrder="3">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="968524" fileID="7" hue="-1" id="5" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Tenzin Line 1" offline="false" select="false" sourceInPoint="906789" sourceOutPoint="1123572" startPoint="751741" zOrder="4">
           <component componentGuid="2721fcc1-5154-40eb-8c8a-21472ef1d7f0" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="55d79129-176c-4c42-aafe-ebffb823272a" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="3b574560-43ac-4435-b81d-4a8595ca69e2" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1475,12 +1879,12 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="1090134" fileID="8" hue="-1" id="5" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Tenzin Line 1" offline="false" select="false" sourceInPoint="1160584" sourceOutPoint="1282194" startPoint="968524" zOrder="5">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="1090134" fileID="7" hue="-1" id="6" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Tenzin Line 1" offline="false" select="false" sourceInPoint="1160584" sourceOutPoint="1282194" startPoint="968524" zOrder="6">
           <component componentGuid="c0fb2227-cc40-4cf0-a4b1-0cd83505cdd3" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="dbae4420-9d1e-4725-ac52-40c228e07b7c" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="727fb893-8ebf-4e01-8b8f-d99cb5bbb803" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1495,12 +1899,12 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="7" endPoint="1180020" fileID="7" hue="-1" id="6" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Tenzin Encounter" offline="false" select="false" sourceInPoint="626557" sourceOutPoint="716443" startPoint="1090134" zOrder="6">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="8" endPoint="1180020" fileID="8" hue="-1" id="7" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Tenzin Encounter" offline="false" select="false" sourceInPoint="626557" sourceOutPoint="716443" startPoint="1090134" zOrder="7">
           <component componentGuid="ea4bd40d-5076-45fe-9081-4509401152b7" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="74743af6-7451-46d1-9daa-507eadf7c3f3" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="ba662728-91cc-430b-bb78-9ea474c8d9c5" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1515,12 +1919,12 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="6" crossFadeTailClipID="-1" endPoint="1200000" fileID="7" hue="-1" id="7" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Tenzin Encounter" offline="false" select="false" sourceInPoint="2079119" sourceOutPoint="2158190" startPoint="1120929" zOrder="7">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="7" crossFadeTailClipID="-1" endPoint="1200000" fileID="8" hue="-1" id="8" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Tenzin Encounter" offline="false" select="false" sourceInPoint="2079119" sourceOutPoint="2158190" startPoint="1120929" zOrder="8">
           <component componentGuid="3cacc683-1c7b-480d-af1c-13a720996447" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="1f04eada-8116-451d-b094-85e213b4777d" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="afc736c9-dd5a-464e-b4b1-ce1b731c3538" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1535,12 +1939,12 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="1490807" fileID="8" hue="-1" id="8" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Tenzin Line 1" offline="false" select="false" sourceInPoint="1644381" sourceOutPoint="1935188" startPoint="1200000" zOrder="8">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="1490807" fileID="7" hue="-1" id="9" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Tenzin Line 1" offline="false" select="false" sourceInPoint="1644381" sourceOutPoint="1935188" startPoint="1200000" zOrder="9">
           <component componentGuid="0ff65b7c-253f-4b80-876b-348c545d6bc0" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="301e2c8f-ab24-4123-be57-2129ae4ceb91" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="3729e78c-90dc-4bb5-adff-ad6208f56600" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1555,12 +1959,12 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="1634498" fileID="8" hue="-1" id="9" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Tenzin Line 1" offline="false" select="false" sourceInPoint="2014499" sourceOutPoint="2158190" startPoint="1490807" zOrder="9">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="1507385" fileID="7" hue="-1" id="10" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Tenzin Line 1" offline="false" select="false" sourceInPoint="2014499" sourceOutPoint="2031077" startPoint="1490807" zOrder="10">
           <component componentGuid="60823109-d25b-4278-97bd-cff10b7cbc9c" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="afb18699-952b-452c-8988-278b5f0e9024" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="46694503-b956-4ddb-b470-c9a2ffb77ab2" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1568,19 +1972,39 @@
             <parameter index="0" name="Pan" parameterValue="0"/>
           </component>
           <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
-          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="143691" shape="19" startPoint="143691" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="16578" shape="19" startPoint="16578" type="log"/>
           <editParameter parameterIndex="0" slotIndex="4294967280"/>
           <editParameter parameterIndex="0" slotIndex="4294967281"/>
           <channelMap>
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="1802097" fileID="8" hue="-1" id="10" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Tenzin Line 1" offline="false" select="false" sourceInPoint="2158190" sourceOutPoint="2325789" startPoint="1634498" zOrder="10">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="1634498" fileID="7" hue="-1" id="11" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Tenzin Line 1" offline="false" select="false" sourceInPoint="2031077" sourceOutPoint="2158190" startPoint="1507385" zOrder="11">
+          <component componentGuid="30df4879-3cbb-406d-8b5f-bce37fe6ccdf" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="e55d26d2-45c6-4da1-b210-5a024b27e5e9" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="4f048905-4a70-4062-ad26-dfe8a8842dba" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="127113" shape="19" startPoint="127113" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="1802097" fileID="7" hue="-1" id="12" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Tenzin Line 1" offline="false" select="false" sourceInPoint="2158190" sourceOutPoint="2325789" startPoint="1634498" zOrder="12">
           <component componentGuid="af7e7602-8958-4b3b-9b74-14fa9d9ff59d" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="f4d1b12f-177e-4759-a082-9a504c592eee" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="1100da68-f76f-492b-b6f9-8cb3a202d016" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1595,12 +2019,12 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="12" endPoint="1915776" fileID="7" hue="-1" id="11" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Tenzin Encounter" offline="false" select="false" sourceInPoint="1120929" sourceOutPoint="1234608" startPoint="1802097" zOrder="11">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="14" endPoint="1915776" fileID="8" hue="-1" id="13" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Tenzin Encounter" offline="false" select="false" sourceInPoint="1120929" sourceOutPoint="1234608" startPoint="1802097" zOrder="13">
           <component componentGuid="7b31c157-7ca7-4517-9e1d-0509b9f21f8a" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="73745512-f6fd-4346-ae20-52969ab220a2" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="d1e90430-2154-4fa7-9914-0ecdbc769868" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1615,12 +2039,12 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="11" crossFadeTailClipID="-1" endPoint="1920000" fileID="7" hue="-1" id="12" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Tenzin Encounter" offline="false" select="true" sourceInPoint="2510631" sourceOutPoint="2622297" startPoint="1808334" zOrder="14">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="13" crossFadeTailClipID="-1" endPoint="1920000" fileID="8" hue="-1" id="14" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Tenzin Encounter" offline="false" select="false" sourceInPoint="2510631" sourceOutPoint="2622297" startPoint="1808334" zOrder="14">
           <component componentGuid="a89e58bd-be6c-48a9-8bc7-42a3a1916900" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="23d7ddfd-8076-48c6-84ec-87d669f8f751" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="68951fa2-a9e3-4f4a-82ca-1bcd14c443a4" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1637,8 +2061,8 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10016" index="14" select="false" visible="true">
-        <trackParameters trackHeight="219" trackHue="294" trackMinimized="false">
-          <name>Track 16</name>
+        <trackParameters trackHeight="30" trackHue="294" trackMinimized="false">
+          <name>Player wins the game</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
           <trackOutput outputID="10000" type="trackID"/>
@@ -1703,9 +2127,49 @@
           </component>
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="428115" fileID="9" hue="-1" id="0" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Azaraphef End Game" offline="false" select="false" sourceInPoint="44054" sourceOutPoint="472169" startPoint="0" zOrder="0">
+          <component componentGuid="b59451d7-1eaf-4b81-bfec-0d64a99b9298" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="445d0e56-8e54-4070-b0b4-d218a3f2b9eb" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="b3d3702d-b8bf-4ccb-92c6-0c086966279b" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="428115" shape="19" startPoint="428115" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="812781" fileID="9" hue="-1" id="1" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Azaraphef End Game" offline="false" select="false" sourceInPoint="1507385" sourceOutPoint="1892051" startPoint="428115" zOrder="1">
+          <component componentGuid="ffc72510-e96f-45bc-a012-ac9da32972db" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="0462cfec-1f57-4b0a-9a6e-dbd7457c3c66" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="79b4d5af-fb84-490c-9ffd-69aed4665802" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="384666" shape="19" startPoint="384666" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10005" index="15" select="false" visible="true">
-        <trackParameters trackHeight="219" trackHue="294" trackMinimized="false">
+        <trackParameters trackHeight="30" trackHue="294" trackMinimized="false">
           <name>Backtracking 4 (Best)</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -1717,7 +2181,7 @@
           </component>
           <component componentGuid="aa04196e-4a25-4af2-a5a5-df9fce38b209" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="1"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
           </component>
           <component componentGuid="e29e3223-3b11-41bc-9a4d-e06f23d81e52" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
@@ -1771,12 +2235,12 @@
           </component>
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="1" endPoint="175777" fileID="3" hue="-1" id="0" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Back Tracking" offline="false" select="false" sourceInPoint="3588404" sourceOutPoint="3764181" startPoint="0" zOrder="0">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="44054" fileID="3" hue="-1" id="0" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Back Tracking" offline="false" select="false" sourceInPoint="3588404" sourceOutPoint="3632458" startPoint="0" zOrder="0">
           <component componentGuid="7a28ad88-8505-4775-88ab-adac6615ef6b" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="061af2ac-2a22-4a4a-bd1f-39d224d0c879" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="5e47b7be-5146-4670-ba05-e2c0dd52780b" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1784,19 +2248,39 @@
             <parameter index="0" name="Pan" parameterValue="0"/>
           </component>
           <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
-          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="175777" shape="19" startPoint="117616" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="44054" shape="19" startPoint="44054" type="log"/>
           <editParameter parameterIndex="0" slotIndex="4294967280"/>
           <editParameter parameterIndex="0" slotIndex="4294967281"/>
           <channelMap>
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="0" crossFadeTailClipID="-1" endPoint="500899" fileID="3" hue="-1" id="1" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Back Tracking" offline="false" select="false" sourceInPoint="1181059" sourceOutPoint="1564342" startPoint="117616" zOrder="1">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="2" endPoint="175777" fileID="3" hue="-1" id="1" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Back Tracking" offline="false" select="false" sourceInPoint="3632458" sourceOutPoint="3764181" startPoint="44054" zOrder="1">
+          <component componentGuid="4651c788-0352-4a3f-9985-c1da284726c4" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="3cb0f660-78d1-44e4-8e9b-88bb61c396d3" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="7a948120-39a6-40c9-9795-2c53fbdfd334" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="131723" shape="19" startPoint="73562" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="1" crossFadeTailClipID="-1" endPoint="500899" fileID="3" hue="-1" id="2" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Aza Back Tracking" offline="false" select="false" sourceInPoint="1181059" sourceOutPoint="1564342" startPoint="117616" zOrder="2">
           <component componentGuid="bde8da29-ae4f-47c7-9566-c905b57bee3b" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="e9e36285-892e-4b17-91dc-8120bfce1b26" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="6ffab97b-f650-4d9f-80ac-7b792dbc2622" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1813,8 +2297,8 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10006" index="16" select="false" visible="true">
-        <trackParameters trackHeight="219" trackHue="92" trackMinimized="false">
-          <name>Track 6</name>
+        <trackParameters trackHeight="30" trackHue="92" trackMinimized="false">
+          <name>Switch encounter</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
           <trackOutput outputID="10000" type="trackID"/>
@@ -1879,9 +2363,709 @@
           </component>
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="1" endPoint="534924" fileID="11" hue="-1" id="0" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Azaraphef Switch Bit" offline="false" select="false" sourceInPoint="76418" sourceOutPoint="611342" startPoint="0" zOrder="0">
+          <component componentGuid="4d1cea93-cd27-42aa-ba67-dd0c90962fc9" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="ba67170f-13ff-448d-9bf7-80262012a208" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="75af2fde-fc4d-442f-a508-3d54da8884da" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="534924" shape="19" startPoint="532849" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="0" crossFadeTailClipID="-1" endPoint="733800" fileID="11" hue="-1" id="1" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Azaraphef Switch Bit" offline="false" select="false" sourceInPoint="1672700" sourceOutPoint="1873651" startPoint="532849" zOrder="1">
+          <component componentGuid="a8c0215a-ba22-4c2d-9805-aebc26cf038a" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="9bf27246-3733-4f30-9367-7d27eb7401ca" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="3d29018b-848b-4092-b657-c5c3216a673d" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="2075" shape="18" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="200951" shape="19" startPoint="200951" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="824369" fileID="11" hue="-1" id="2" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Azaraphef Switch Bit" offline="false" select="false" sourceInPoint="820784" sourceOutPoint="911353" startPoint="733800" zOrder="2">
+          <component componentGuid="427b348c-7881-4ae5-99b4-1472f4cef798" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="ac252afe-af3b-43e3-b242-ee45f6892ccf" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="642901a4-c193-4fa4-ae42-dd95c0a3b45f" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="90569" shape="19" startPoint="90569" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
       </audioTrack>
-      <masterTrack automationLaneOpenState="false" id="10000" index="17" select="false" visible="true">
-        <trackParameters trackHeight="219" trackHue="-1" trackMinimized="false">
+      <audioTrack automationLaneOpenState="false" id="10017" index="17" select="false" visible="true">
+        <trackParameters trackHeight="30" trackHue="92" trackMinimized="false">
+          <name>Locked door scene</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="67c7ad0e-a40e-4064-a2c2-1131a95decbd" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="ac7e784d-9742-413f-9aec-75b254dd442b" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="ccf990f4-2201-4dfa-86b3-763ca5815653" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <component componentGuid="c76936a7-b4ab-48db-b4a5-07d2da60163f" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="Low Shelf Frequency" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="Low Shelf Gain" parameterValue="0.5"/>
+            <parameter index="2" name="High Shelf Frequency" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="High Shelf Gain" parameterValue="0.5"/>
+            <parameter index="4" name="EQ Band 1 Center Frequency" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ Band 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ Band 1 Gain" parameterValue="0.5"/>
+            <parameter index="7" name="EQ Band 1 Enable" parameterValue="1"/>
+            <parameter index="8" name="EQ Band 2 Center Frequency" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ Band 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ Band 2 Gain" parameterValue="0.5"/>
+            <parameter index="11" name="EQ Band 2 Enable" parameterValue="1"/>
+            <parameter index="12" name="EQ Band 3 Center Frequency" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ Band 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ Band 3 Gain" parameterValue="0.5"/>
+            <parameter index="15" name="EQ Band 3 Enable" parameterValue="1"/>
+            <parameter index="16" name="EQ Band 4 Center Frequency" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ Band 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ Band 4 Gain" parameterValue="0.5"/>
+            <parameter index="19" name="EQ Band 4 Enable" parameterValue="1"/>
+            <parameter index="20" name="EQ Band 5 Center Frequency" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ Band 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ Band 5 Gain" parameterValue="0.5"/>
+            <parameter index="23" name="EQ Band 5 Enable" parameterValue="1"/>
+            <parameter index="24" name="Gain" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="Low Shelf Filter Order" parameterValue="0"/>
+            <parameter index="27" name="High Shelf Filter Order" parameterValue="0"/>
+            <parameter index="28" name="Ultra-Quiet Mode" parameterValue="0"/>
+            <parameter index="29" name="Low Shelf Enable" parameterValue="1"/>
+            <parameter index="30" name="High Shelf Enable" parameterValue="1"/>
+            <parameter index="31" name="Original Sample Rate" parameterValue="0.25"/>
+            <parameter index="32" name="EQ Band 1 Bandwidth" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ Band 2 Bandwidth" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ Band 3 Bandwidth" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ Band 4 Bandwidth" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ Band 5 Bandwidth" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="High-Pass Filter Enable" parameterValue="0"/>
+            <parameter index="38" name="High-Pass Cutoff Frequency" parameterValue="0"/>
+            <parameter index="39" name="High-Pass Slope" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="Low-Pass Filter Enable" parameterValue="0"/>
+            <parameter index="41" name="Low-Pass Cutoff Frequency" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="Low-Pass Slope" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="Bypass" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="371071" fileID="12" hue="-1" id="0" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Azaraphef Wall Scene" offline="false" select="false" sourceInPoint="103472" sourceOutPoint="474543" startPoint="0" zOrder="0">
+          <component componentGuid="0755e1e5-581b-4a9d-a288-b6c48e61eb6f" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="65c141a7-dc9b-4579-8697-4b414d0b9727" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="fdbe8e2a-5a54-4cfb-9639-274c72b369ba" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="371071" shape="19" startPoint="371071" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="433887" fileID="12" hue="-1" id="1" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Azaraphef Wall Scene" offline="false" select="false" sourceInPoint="1548040" sourceOutPoint="1610856" startPoint="371071" zOrder="1">
+          <component componentGuid="a4f98fa4-3b51-4cfb-8424-eba0603687c0" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1.7046086788177490234375">
+              <parameterKeyframes enableSplines="false" readOnly="false">
+                <parameterKeyframe sampleOffset="1584874" select="true" type="linear" value="0.78807103633880615234375"/>
+              </parameterKeyframes>
+            </parameter>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="bb8aae70-5b62-478e-9437-6f468762c0b1" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="5023dfdb-a0e1-4c4f-860a-0e84936daf97" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="62816" shape="19" startPoint="62816" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="693883" fileID="12" hue="-1" id="2" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Azaraphef Wall Scene" offline="false" select="false" sourceInPoint="576230" sourceOutPoint="836226" startPoint="433887" zOrder="2">
+          <component componentGuid="642833de-20d8-4e88-85c2-cb4b66b07a4b" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="1dd77a24-31de-4af5-8724-c23ae87e6aab" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="291610db-d068-4c4f-9182-ab9267ad1aa8" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="259996" shape="19" startPoint="259996" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10018" index="18" select="false" visible="true">
+        <trackParameters trackHeight="30" trackHue="211" trackMinimized="false">
+          <name>Tenzin death crie</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="a05aa870-b459-43fe-abd6-c72175622d62" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="7f30c73a-4db1-42c9-8187-3e5d6b0aa95e" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="afc05611-125d-4835-be24-677562a6efee" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <component componentGuid="ee3d48e3-6271-498d-be12-ced3af22711d" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="Low Shelf Frequency" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="Low Shelf Gain" parameterValue="0.5"/>
+            <parameter index="2" name="High Shelf Frequency" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="High Shelf Gain" parameterValue="0.5"/>
+            <parameter index="4" name="EQ Band 1 Center Frequency" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ Band 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ Band 1 Gain" parameterValue="0.5"/>
+            <parameter index="7" name="EQ Band 1 Enable" parameterValue="1"/>
+            <parameter index="8" name="EQ Band 2 Center Frequency" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ Band 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ Band 2 Gain" parameterValue="0.5"/>
+            <parameter index="11" name="EQ Band 2 Enable" parameterValue="1"/>
+            <parameter index="12" name="EQ Band 3 Center Frequency" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ Band 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ Band 3 Gain" parameterValue="0.5"/>
+            <parameter index="15" name="EQ Band 3 Enable" parameterValue="1"/>
+            <parameter index="16" name="EQ Band 4 Center Frequency" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ Band 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ Band 4 Gain" parameterValue="0.5"/>
+            <parameter index="19" name="EQ Band 4 Enable" parameterValue="1"/>
+            <parameter index="20" name="EQ Band 5 Center Frequency" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ Band 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ Band 5 Gain" parameterValue="0.5"/>
+            <parameter index="23" name="EQ Band 5 Enable" parameterValue="1"/>
+            <parameter index="24" name="Gain" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="Low Shelf Filter Order" parameterValue="0"/>
+            <parameter index="27" name="High Shelf Filter Order" parameterValue="0"/>
+            <parameter index="28" name="Ultra-Quiet Mode" parameterValue="0"/>
+            <parameter index="29" name="Low Shelf Enable" parameterValue="1"/>
+            <parameter index="30" name="High Shelf Enable" parameterValue="1"/>
+            <parameter index="31" name="Original Sample Rate" parameterValue="0.25"/>
+            <parameter index="32" name="EQ Band 1 Bandwidth" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ Band 2 Bandwidth" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ Band 3 Bandwidth" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ Band 4 Bandwidth" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ Band 5 Bandwidth" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="High-Pass Filter Enable" parameterValue="0"/>
+            <parameter index="38" name="High-Pass Cutoff Frequency" parameterValue="0"/>
+            <parameter index="39" name="High-Pass Slope" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="Low-Pass Filter Enable" parameterValue="0"/>
+            <parameter index="41" name="Low-Pass Cutoff Frequency" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="Low-Pass Slope" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="Bypass" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="68320" fileID="13" hue="-1" id="0" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Tenzin Death Wails" offline="false" select="false" sourceInPoint="460102" sourceOutPoint="528422" startPoint="0" zOrder="15">
+          <component componentGuid="c0f1f843-2035-4394-882f-3189472cf4b8" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="0.3580683767795562744140625"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="326ba98c-cf46-4c09-b8fb-1ddd059fe6e5" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="75e0a817-df68-46f8-ad2b-b4c6e9581c73" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="68320" shape="19" startPoint="68320" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="117616" fileID="13" hue="-1" id="1" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Tenzin Death Wails" offline="false" select="false" sourceInPoint="562562" sourceOutPoint="611858" startPoint="68320" zOrder="3">
+          <component componentGuid="6e9e81a2-4821-4a51-aa0e-fd1af949fdbd" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="0.3580683767795562744140625"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="625f1b72-1cfc-4507-9a17-ec053762679d" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="911200d4-d2a1-4f47-9ab0-79a7dca571b8" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="18" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="49296" shape="19" startPoint="49296" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="192000" fileID="13" hue="-1" id="2" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Tenzin Death Wails" offline="false" select="false" sourceInPoint="861285" sourceOutPoint="935669" startPoint="117616" zOrder="2">
+          <component componentGuid="8efbe764-30bc-44cb-b815-aa9fa0ec3ad1" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="0.3580683767795562744140625"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="9026f103-16b5-41ea-9529-21d6b09f77dd" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="9b967885-bad0-45bc-a940-daa477f773bf" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="18" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="74384" shape="19" startPoint="74384" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10019" index="19" select="false" visible="true">
+        <trackParameters trackHeight="30" trackHue="326" trackMinimized="false">
+          <name>Tenzin loses the fight</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="5c449097-d047-409a-8deb-1050233465d2" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="026da466-a769-4ec4-95b0-a145f7583d80" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="5e052c00-5695-4c83-b092-b1520ff84032" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <component componentGuid="4fbf478e-b0e7-4d51-84c3-dfe293fe2a8c" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="Low Shelf Frequency" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="Low Shelf Gain" parameterValue="0.5"/>
+            <parameter index="2" name="High Shelf Frequency" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="High Shelf Gain" parameterValue="0.5"/>
+            <parameter index="4" name="EQ Band 1 Center Frequency" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ Band 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ Band 1 Gain" parameterValue="0.5"/>
+            <parameter index="7" name="EQ Band 1 Enable" parameterValue="1"/>
+            <parameter index="8" name="EQ Band 2 Center Frequency" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ Band 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ Band 2 Gain" parameterValue="0.5"/>
+            <parameter index="11" name="EQ Band 2 Enable" parameterValue="1"/>
+            <parameter index="12" name="EQ Band 3 Center Frequency" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ Band 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ Band 3 Gain" parameterValue="0.5"/>
+            <parameter index="15" name="EQ Band 3 Enable" parameterValue="1"/>
+            <parameter index="16" name="EQ Band 4 Center Frequency" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ Band 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ Band 4 Gain" parameterValue="0.5"/>
+            <parameter index="19" name="EQ Band 4 Enable" parameterValue="1"/>
+            <parameter index="20" name="EQ Band 5 Center Frequency" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ Band 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ Band 5 Gain" parameterValue="0.5"/>
+            <parameter index="23" name="EQ Band 5 Enable" parameterValue="1"/>
+            <parameter index="24" name="Gain" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="Low Shelf Filter Order" parameterValue="0"/>
+            <parameter index="27" name="High Shelf Filter Order" parameterValue="0"/>
+            <parameter index="28" name="Ultra-Quiet Mode" parameterValue="0"/>
+            <parameter index="29" name="Low Shelf Enable" parameterValue="1"/>
+            <parameter index="30" name="High Shelf Enable" parameterValue="1"/>
+            <parameter index="31" name="Original Sample Rate" parameterValue="0.25"/>
+            <parameter index="32" name="EQ Band 1 Bandwidth" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ Band 2 Bandwidth" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ Band 3 Bandwidth" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ Band 4 Bandwidth" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ Band 5 Bandwidth" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="High-Pass Filter Enable" parameterValue="0"/>
+            <parameter index="38" name="High-Pass Cutoff Frequency" parameterValue="0"/>
+            <parameter index="39" name="High-Pass Slope" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="Low-Pass Filter Enable" parameterValue="0"/>
+            <parameter index="41" name="Low-Pass Cutoff Frequency" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="Low-Pass Slope" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="Bypass" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="579714" fileID="14" hue="-1" id="0" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Tenzin Death" offline="false" select="false" sourceInPoint="100526" sourceOutPoint="680240" startPoint="0" zOrder="16">
+          <component componentGuid="eb6d1bf9-1b7c-4cbe-9fdd-02fffb674c5e" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="0.76609170436859130859375"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="b62fbb7c-c9e6-4231-bfe6-dbcdf7f05801" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="18a84c67-e6cc-4416-aa2a-206fecad860b" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="579714" shape="19" startPoint="579714" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="798923" fileID="14" hue="-1" id="1" lockedInTime="false" looped="false" name="Dungeon Dunce Scenes_Tenzin Death" offline="false" select="false" sourceInPoint="709757" sourceOutPoint="928965" startPoint="579715" zOrder="17">
+          <component componentGuid="9b7b60a1-f992-4a82-9cd8-22d1a8b98cb3" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="0.76609170436859130859375"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="70381bcf-9e38-4fc9-8c7c-fe7f343d0f45" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="725bfdca-e4f8-4b4e-b287-5cd61f80cc55" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="219208" shape="19" startPoint="219208" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10020" index="20" select="false" visible="true">
+        <trackParameters trackHeight="30" trackHue="130" trackMinimized="false">
+          <name>Track 20</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="4a8e5335-7c03-4936-8e43-b423a8eecc3c" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="e334f245-7e6b-46e2-9b93-279ce344ac0e" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="d6955916-c468-49a0-b0f3-c1f62103c1f8" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <component componentGuid="3aa71ef2-c040-44b6-82db-4ad0d9630981" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="Low Shelf Frequency" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="Low Shelf Gain" parameterValue="0.5"/>
+            <parameter index="2" name="High Shelf Frequency" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="High Shelf Gain" parameterValue="0.5"/>
+            <parameter index="4" name="EQ Band 1 Center Frequency" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ Band 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ Band 1 Gain" parameterValue="0.5"/>
+            <parameter index="7" name="EQ Band 1 Enable" parameterValue="1"/>
+            <parameter index="8" name="EQ Band 2 Center Frequency" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ Band 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ Band 2 Gain" parameterValue="0.5"/>
+            <parameter index="11" name="EQ Band 2 Enable" parameterValue="1"/>
+            <parameter index="12" name="EQ Band 3 Center Frequency" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ Band 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ Band 3 Gain" parameterValue="0.5"/>
+            <parameter index="15" name="EQ Band 3 Enable" parameterValue="1"/>
+            <parameter index="16" name="EQ Band 4 Center Frequency" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ Band 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ Band 4 Gain" parameterValue="0.5"/>
+            <parameter index="19" name="EQ Band 4 Enable" parameterValue="1"/>
+            <parameter index="20" name="EQ Band 5 Center Frequency" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ Band 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ Band 5 Gain" parameterValue="0.5"/>
+            <parameter index="23" name="EQ Band 5 Enable" parameterValue="1"/>
+            <parameter index="24" name="Gain" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="Low Shelf Filter Order" parameterValue="0"/>
+            <parameter index="27" name="High Shelf Filter Order" parameterValue="0"/>
+            <parameter index="28" name="Ultra-Quiet Mode" parameterValue="0"/>
+            <parameter index="29" name="Low Shelf Enable" parameterValue="1"/>
+            <parameter index="30" name="High Shelf Enable" parameterValue="1"/>
+            <parameter index="31" name="Original Sample Rate" parameterValue="0.25"/>
+            <parameter index="32" name="EQ Band 1 Bandwidth" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ Band 2 Bandwidth" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ Band 3 Bandwidth" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ Band 4 Bandwidth" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ Band 5 Bandwidth" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="High-Pass Filter Enable" parameterValue="0"/>
+            <parameter index="38" name="High-Pass Cutoff Frequency" parameterValue="0"/>
+            <parameter index="39" name="High-Pass Slope" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="Low-Pass Filter Enable" parameterValue="0"/>
+            <parameter index="41" name="Low-Pass Cutoff Frequency" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="Low-Pass Slope" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="Bypass" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10021" index="21" select="false" visible="true">
+        <trackParameters trackHeight="30" trackHue="240" trackMinimized="false">
+          <name>Track 21</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="7a29c768-7c5e-42c2-b384-b61bb72cb726" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="2a94a753-98be-48b1-bbbe-a0d8fcca4a18" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="1379379a-f70b-4a6e-8c53-ba617f5c20fc" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <component componentGuid="05ff53ba-3b8a-4ce4-a58f-1955b22d319d" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="Low Shelf Frequency" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="Low Shelf Gain" parameterValue="0.5"/>
+            <parameter index="2" name="High Shelf Frequency" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="High Shelf Gain" parameterValue="0.5"/>
+            <parameter index="4" name="EQ Band 1 Center Frequency" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ Band 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ Band 1 Gain" parameterValue="0.5"/>
+            <parameter index="7" name="EQ Band 1 Enable" parameterValue="1"/>
+            <parameter index="8" name="EQ Band 2 Center Frequency" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ Band 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ Band 2 Gain" parameterValue="0.5"/>
+            <parameter index="11" name="EQ Band 2 Enable" parameterValue="1"/>
+            <parameter index="12" name="EQ Band 3 Center Frequency" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ Band 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ Band 3 Gain" parameterValue="0.5"/>
+            <parameter index="15" name="EQ Band 3 Enable" parameterValue="1"/>
+            <parameter index="16" name="EQ Band 4 Center Frequency" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ Band 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ Band 4 Gain" parameterValue="0.5"/>
+            <parameter index="19" name="EQ Band 4 Enable" parameterValue="1"/>
+            <parameter index="20" name="EQ Band 5 Center Frequency" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ Band 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ Band 5 Gain" parameterValue="0.5"/>
+            <parameter index="23" name="EQ Band 5 Enable" parameterValue="1"/>
+            <parameter index="24" name="Gain" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="Low Shelf Filter Order" parameterValue="0"/>
+            <parameter index="27" name="High Shelf Filter Order" parameterValue="0"/>
+            <parameter index="28" name="Ultra-Quiet Mode" parameterValue="0"/>
+            <parameter index="29" name="Low Shelf Enable" parameterValue="1"/>
+            <parameter index="30" name="High Shelf Enable" parameterValue="1"/>
+            <parameter index="31" name="Original Sample Rate" parameterValue="0.25"/>
+            <parameter index="32" name="EQ Band 1 Bandwidth" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ Band 2 Bandwidth" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ Band 3 Bandwidth" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ Band 4 Bandwidth" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ Band 5 Bandwidth" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="High-Pass Filter Enable" parameterValue="0"/>
+            <parameter index="38" name="High-Pass Cutoff Frequency" parameterValue="0"/>
+            <parameter index="39" name="High-Pass Slope" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="Low-Pass Filter Enable" parameterValue="0"/>
+            <parameter index="41" name="Low-Pass Cutoff Frequency" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="Low-Pass Slope" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="Bypass" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10022" index="22" select="false" visible="true">
+        <trackParameters trackHeight="30" trackHue="32" trackMinimized="false">
+          <name>Track 22</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="aad88b3e-b447-4056-89b8-729a4781c766" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="385585c2-5014-4b12-951b-91f205d69dc6" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="fc50088c-1e9b-45f5-bc8a-cf4e01c26525" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <component componentGuid="175756f0-b5f5-46fd-af0e-d748cbda000f" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="Low Shelf Frequency" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="Low Shelf Gain" parameterValue="0.5"/>
+            <parameter index="2" name="High Shelf Frequency" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="High Shelf Gain" parameterValue="0.5"/>
+            <parameter index="4" name="EQ Band 1 Center Frequency" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ Band 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ Band 1 Gain" parameterValue="0.5"/>
+            <parameter index="7" name="EQ Band 1 Enable" parameterValue="1"/>
+            <parameter index="8" name="EQ Band 2 Center Frequency" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ Band 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ Band 2 Gain" parameterValue="0.5"/>
+            <parameter index="11" name="EQ Band 2 Enable" parameterValue="1"/>
+            <parameter index="12" name="EQ Band 3 Center Frequency" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ Band 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ Band 3 Gain" parameterValue="0.5"/>
+            <parameter index="15" name="EQ Band 3 Enable" parameterValue="1"/>
+            <parameter index="16" name="EQ Band 4 Center Frequency" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ Band 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ Band 4 Gain" parameterValue="0.5"/>
+            <parameter index="19" name="EQ Band 4 Enable" parameterValue="1"/>
+            <parameter index="20" name="EQ Band 5 Center Frequency" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ Band 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ Band 5 Gain" parameterValue="0.5"/>
+            <parameter index="23" name="EQ Band 5 Enable" parameterValue="1"/>
+            <parameter index="24" name="Gain" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="Low Shelf Filter Order" parameterValue="0"/>
+            <parameter index="27" name="High Shelf Filter Order" parameterValue="0"/>
+            <parameter index="28" name="Ultra-Quiet Mode" parameterValue="0"/>
+            <parameter index="29" name="Low Shelf Enable" parameterValue="1"/>
+            <parameter index="30" name="High Shelf Enable" parameterValue="1"/>
+            <parameter index="31" name="Original Sample Rate" parameterValue="0.25"/>
+            <parameter index="32" name="EQ Band 1 Bandwidth" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ Band 2 Bandwidth" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ Band 3 Bandwidth" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ Band 4 Bandwidth" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ Band 5 Bandwidth" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="High-Pass Filter Enable" parameterValue="0"/>
+            <parameter index="38" name="High-Pass Cutoff Frequency" parameterValue="0"/>
+            <parameter index="39" name="High-Pass Slope" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="Low-Pass Filter Enable" parameterValue="0"/>
+            <parameter index="41" name="Low-Pass Cutoff Frequency" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="Low-Pass Slope" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="Bypass" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10023" index="23" select="false" visible="true">
+        <trackParameters trackHeight="30" trackHue="160" trackMinimized="false">
+          <name>Track 23</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="99a39e5e-3418-4508-96f6-0d959cff582e" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="11d371e2-80c0-41c5-a1d2-a47c42937511" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="e352040c-3701-4a15-a1d2-f6f3c6b8dc93" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <component componentGuid="92e810d7-99f5-477e-a119-5e2f69914286" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="Low Shelf Frequency" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="Low Shelf Gain" parameterValue="0.5"/>
+            <parameter index="2" name="High Shelf Frequency" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="High Shelf Gain" parameterValue="0.5"/>
+            <parameter index="4" name="EQ Band 1 Center Frequency" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ Band 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ Band 1 Gain" parameterValue="0.5"/>
+            <parameter index="7" name="EQ Band 1 Enable" parameterValue="1"/>
+            <parameter index="8" name="EQ Band 2 Center Frequency" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ Band 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ Band 2 Gain" parameterValue="0.5"/>
+            <parameter index="11" name="EQ Band 2 Enable" parameterValue="1"/>
+            <parameter index="12" name="EQ Band 3 Center Frequency" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ Band 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ Band 3 Gain" parameterValue="0.5"/>
+            <parameter index="15" name="EQ Band 3 Enable" parameterValue="1"/>
+            <parameter index="16" name="EQ Band 4 Center Frequency" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ Band 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ Band 4 Gain" parameterValue="0.5"/>
+            <parameter index="19" name="EQ Band 4 Enable" parameterValue="1"/>
+            <parameter index="20" name="EQ Band 5 Center Frequency" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ Band 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ Band 5 Gain" parameterValue="0.5"/>
+            <parameter index="23" name="EQ Band 5 Enable" parameterValue="1"/>
+            <parameter index="24" name="Gain" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="Low Shelf Filter Order" parameterValue="0"/>
+            <parameter index="27" name="High Shelf Filter Order" parameterValue="0"/>
+            <parameter index="28" name="Ultra-Quiet Mode" parameterValue="0"/>
+            <parameter index="29" name="Low Shelf Enable" parameterValue="1"/>
+            <parameter index="30" name="High Shelf Enable" parameterValue="1"/>
+            <parameter index="31" name="Original Sample Rate" parameterValue="0.25"/>
+            <parameter index="32" name="EQ Band 1 Bandwidth" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ Band 2 Bandwidth" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ Band 3 Bandwidth" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ Band 4 Bandwidth" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ Band 5 Bandwidth" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="High-Pass Filter Enable" parameterValue="0"/>
+            <parameter index="38" name="High-Pass Cutoff Frequency" parameterValue="0"/>
+            <parameter index="39" name="High-Pass Slope" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="Low-Pass Filter Enable" parameterValue="0"/>
+            <parameter index="41" name="Low-Pass Cutoff Frequency" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="Low-Pass Slope" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="Bypass" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+      </audioTrack>
+      <masterTrack automationLaneOpenState="false" id="10000" index="24" select="false" visible="true">
+        <trackParameters trackHeight="30" trackHue="-1" trackMinimized="false">
           <name>Mix</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="true">
@@ -1949,9 +3133,9 @@
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
       </masterTrack>
     </tracks>
-    <sessionState ctiPosition="88637" smpteStart="0">
-      <selectionState selectionDuration="0" selectionStart="88637"/>
-      <viewState horizontalViewDuration="497579" horizontalViewStart="1241" trackControlsWidth="224" verticalScrollOffset="-2063"/>
+    <sessionState ctiPosition="1251335" smpteStart="0">
+      <selectionState selectionDuration="0" selectionStart="1251335"/>
+      <viewState horizontalViewDuration="1037817" horizontalViewStart="0" trackControlsWidth="224" verticalScrollOffset="0"/>
       <timeFormatState beatsPerBar="4" beatsPerMinute="120" customFrameRate="12" linkToDefaultTimeSettings="true" noteLength="4" subdivisions="16" timeCodeDropFrame="false" timeCodeFrameRate="30" timeCodeNTSC="false" timeFormat="timeFormatDecimal"/>
       <mixingOptionState defaultPanModeLogarithmic="false" panPower="-3" playOverlappingClips="false"/>
     </sessionState>
@@ -1964,12 +3148,13 @@
             xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
             xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
             xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:AEScart="http://ns.adobe.com/aes/cart/"
             xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/">
          <xmp:CreatorTool>Adobe Audition 24.0 (Windows)</xmp:CreatorTool>
          <xmp:CreateDate>2024-04-25T14:29:24-05:00</xmp:CreateDate>
-         <xmp:MetadataDate>2024-04-25T15:17:07-05:00</xmp:MetadataDate>
-         <xmp:ModifyDate>2024-04-25T15:17:07-05:00</xmp:ModifyDate>
-         <xmpMM:InstanceID>xmp.iid:984e2b93-9286-c747-a965-4a509b567205</xmpMM:InstanceID>
+         <xmp:MetadataDate>2024-04-27T18:27:40-05:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2024-04-27T18:27:40-05:00</xmp:ModifyDate>
+         <xmpMM:InstanceID>xmp.iid:1d842791-4c46-7e46-85c7-84bb01db2b89</xmpMM:InstanceID>
          <xmpMM:DocumentID>xmp.did:e464ff6b-a09b-054c-a531-5cc563cfa3b6</xmpMM:DocumentID>
          <xmpMM:OriginalDocumentID>xmp.did:1a820ba5-a499-d749-887f-ec914d00bba6</xmpMM:OriginalDocumentID>
          <xmpMM:History>
@@ -2023,6 +3208,20 @@
                   <stEvt:softwareAgent>Adobe Audition 24.0 (Windows)</stEvt:softwareAgent>
                   <stEvt:changed>/</stEvt:changed>
                </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:bc27176b-9525-7b46-a7bf-cb1467472797</stEvt:instanceID>
+                  <stEvt:when>2024-04-27T18:27:40-05:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:1d842791-4c46-7e46-85c7-84bb01db2b89</stEvt:instanceID>
+                  <stEvt:when>2024-04-27T18:27:40-05:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
             </rdf:Seq>
          </xmpMM:History>
          <xmpMM:DerivedFrom rdf:parseType="Resource">
@@ -2031,6 +3230,43 @@
             <stRef:originalDocumentID>xmp.did:1a820ba5-a499-d749-887f-ec914d00bba6</stRef:originalDocumentID>
          </xmpMM:DerivedFrom>
          <dc:format>application/xml</dc:format>
+         <AEScart:Version>0101</AEScart:Version>
+         <AEScart:PostTimer>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <AEScart:Usage>EOD </AEScart:Usage>
+                  <AEScart:Value>1803932</AEScart:Value>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <AEScart:Usage/>
+                  <AEScart:Value>4294967295</AEScart:Value>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <AEScart:Usage/>
+                  <AEScart:Value>4294967295</AEScart:Value>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <AEScart:Usage/>
+                  <AEScart:Value>4294967295</AEScart:Value>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <AEScart:Usage/>
+                  <AEScart:Value>4294967295</AEScart:Value>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <AEScart:Usage/>
+                  <AEScart:Value>4294967295</AEScart:Value>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <AEScart:Usage/>
+                  <AEScart:Value>4294967295</AEScart:Value>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <AEScart:Usage/>
+                  <AEScart:Value>4294967295</AEScart:Value>
+               </rdf:li>
+            </rdf:Seq>
+         </AEScart:PostTimer>
          <xmpDM:Tracks>
             <rdf:Bag>
                <rdf:li rdf:parseType="Resource">
@@ -2159,17 +3395,23 @@
     <file absolutePath="D:\Dungeon-Dunce\Dialogue\Edited work\Imported Files\Dungeon Dunce Scenes_aza First stone.wav" id="4" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:40;" mediaHandler="AmioWav" relativePath="Imported Files/Dungeon Dunce Scenes_aza First stone.wav"/>
     <file absolutePath="D:\Dungeon-Dunce\Dialogue\Edited work\Imported Files\Dungeon Dunce Scenes_aza 2nd stone.wav" id="5" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:40;" mediaHandler="AmioWav" relativePath="Imported Files/Dungeon Dunce Scenes_aza 2nd stone.wav"/>
     <file absolutePath="D:\Dungeon-Dunce\Dialogue\Edited work\Imported Files\Dungeon Dunce Scenes_Aza Player wins.wav" id="6" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:40;" mediaHandler="AmioWav" relativePath="Imported Files/Dungeon Dunce Scenes_Aza Player wins.wav"/>
-    <file absolutePath="D:\Dungeon-Dunce\Dialogue\Edited work\Imported Files\Dungeon Dunce Scenes_Aza Tenzin Encounter.wav" id="7" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:40;" mediaHandler="AmioWav" relativePath="Imported Files/Dungeon Dunce Scenes_Aza Tenzin Encounter.wav"/>
-    <file absolutePath="D:\Dungeon-Dunce\Dialogue\Edited work\Imported Files\Dungeon Dunce Scenes_Tenzin Line 1.wav" id="8" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:40;" mediaHandler="AmioWav" relativePath="Imported Files/Dungeon Dunce Scenes_Tenzin Line 1.wav"/>
+    <file absolutePath="D:\Dungeon-Dunce\Dialogue\Edited work\Imported Files\Dungeon Dunce Scenes_Tenzin Line 1.wav" id="7" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:40;" mediaHandler="AmioWav" relativePath="Imported Files/Dungeon Dunce Scenes_Tenzin Line 1.wav"/>
+    <file absolutePath="D:\Dungeon-Dunce\Dialogue\Edited work\Imported Files\Dungeon Dunce Scenes_Aza Tenzin Encounter.wav" id="8" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:40;" mediaHandler="AmioWav" relativePath="Imported Files/Dungeon Dunce Scenes_Aza Tenzin Encounter.wav"/>
+    <file absolutePath="D:\Dungeon-Dunce\Dialogue\Edited work\Imported Files\Dungeon Dunce Scenes_Azaraphef End Game.wav" id="9" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:40;" mediaHandler="AmioWav" relativePath="Imported Files/Dungeon Dunce Scenes_Azaraphef End Game.wav"/>
+    <file absolutePath="D:\Dungeon-Dunce\Dialogue\Edited work\Imported Files\Dungeon Dunce Scenes_Azaraphef Scene 1.wav" id="10" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:40;" mediaHandler="AmioWav" relativePath="Imported Files/Dungeon Dunce Scenes_Azaraphef Scene 1.wav"/>
+    <file absolutePath="D:\Dungeon-Dunce\Dialogue\Edited work\Imported Files\Dungeon Dunce Scenes_Azaraphef Switch Bit.wav" id="11" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:40;" mediaHandler="AmioWav" relativePath="Imported Files/Dungeon Dunce Scenes_Azaraphef Switch Bit.wav"/>
+    <file absolutePath="D:\Dungeon-Dunce\Dialogue\Edited work\Imported Files\Dungeon Dunce Scenes_Azaraphef Wall Scene.wav" id="12" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:40;" mediaHandler="AmioWav" relativePath="Imported Files/Dungeon Dunce Scenes_Azaraphef Wall Scene.wav"/>
+    <file absolutePath="D:\Dungeon-Dunce\Dialogue\Edited work\Imported Files\Dungeon Dunce Scenes_Tenzin Death Wails.wav" id="13" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:40;" mediaHandler="AmioWav" relativePath="Imported Files/Dungeon Dunce Scenes_Tenzin Death Wails.wav"/>
+    <file absolutePath="D:\Dungeon-Dunce\Dialogue\Edited work\Imported Files\Dungeon Dunce Scenes_Tenzin Death.wav" id="14" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:40;" mediaHandler="AmioWav" relativePath="Imported Files/Dungeon Dunce Scenes_Tenzin Death.wav"/>
   </files>
 
   <audioDevice inputID="DBCD4FF3-12EC-4C25-9511-DC9DA5E29064" outputID="11111111-1111-1111-1111-11111111">
     <inputPort id="1" name="Default Stereo Input"/>
     <outputPort id="1" name="Default Output"/>
-    <outputPort id="2" name="[01M] System Default - Headphone (Realtek(R) Audio) 1"/>
-    <outputPort id="3" name="[02M] System Default - Headphone (Realtek(R) Audio) 2"/>
+    <outputPort id="2" name="[01M] System Default - Speakers (Stealth 600X Gen 2 MAX) 1"/>
+    <outputPort id="3" name="[02M] System Default - Speakers (Stealth 600X Gen 2 MAX) 2"/>
     <outputPort id="4" name="Default Stereo Output"/>
-    <outputPort id="5" name="[01S] System Default - Headphone (Realtek(R) Audio) 1"/>
+    <outputPort id="5" name="[01S] System Default - Speakers (Stealth 600X Gen 2 MAX) 1"/>
     <outputPort id="6" name="Default Surround Output"/>
   </audioDevice>
 
